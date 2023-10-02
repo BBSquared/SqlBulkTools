@@ -3,7 +3,7 @@ using SqlBulkTools.IntegrationTests.Data;
 using SqlBulkTools.TestCommon;
 using SqlBulkTools.TestCommon.Model;
 using System.Collections.Generic;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using System.Linq;
 using System.Transactions;
 using Xunit;

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Data;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
@@ -475,7 +475,7 @@ namespace SqlBulkTools.IntegrationTests
                         .WithTable("Books")
                         .WithBulkCopySettings(new BulkCopySettings()
                         {
-                            SqlBulkCopyOptions = SqlBulkCopyOptions.TableLock,
+                            SqlBulkCopyOptions = Microsoft.Data.SqlClient.SqlBulkCopyOptions.TableLock,
                             BatchSize = 3000
                         })
                         .AddColumn(x => x.Title)

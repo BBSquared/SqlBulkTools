@@ -655,7 +655,7 @@ namespace SqlBulkTools.UnitTests
             columns.Add("Price");
             columns.Add("BestSeller");
 
-            var sqlParams = new List<SqlParameter>();
+            var sqlParams = new List<Microsoft.Data.SqlClient.SqlParameter>();
             var propertyInfoList = typeof(Book).GetProperties().OrderBy(x => x.Name).ToList();
 
 
