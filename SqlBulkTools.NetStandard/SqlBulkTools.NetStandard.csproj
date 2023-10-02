@@ -14,11 +14,11 @@
 
   <PropertyGroup>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <Authors>tiagorosendo, zek99, gtaylor44</Authors>
-    <RepositoryUrl>https://github.com/tiagorosendo/SqlBulkTools</RepositoryUrl>
+    <Authors>BBSquared, tiagorosendo, zek99, gtaylor44</Authors>
+    <RepositoryUrl>https://github.com/BBSquared/SqlBulkTools</RepositoryUrl>
     <PackageProjectUrl>https://github.com/tiagorosendo/SqlBulkTools</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/tiagorosendo/SqlBulkTools/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageTags>SQL BULK BULKINSERT BULKUPDATE</PackageTags>
+    <PackageTags>SQL BULK BULKINSERT BULKUPDATE Microsoft.Data.SqlClient</PackageTags>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
